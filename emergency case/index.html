@@ -1,0 +1,546 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<!--Import Google Icon Font-->
+<link href="http://fonts.googleapis.com/icon?family=Material+Icons"
+	rel="stylesheet">
+<!--Import materialize.css-->
+<link type="text/css" rel="stylesheet" href="css/materialize.css"
+	media="screen,projection" />
+
+<!--Import custom.css-->
+<link type="text/css" rel="stylesheet" href="css/custom.css"
+	media="screen,projection" />
+
+<!--Let browser know website is optimized for mobile-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+</head>
+
+<body>
+
+	<!-- edit toolbar -->
+	<div class="fixed-action-btn toolbar">
+		<a class="btn-floating btn-large red"> <i
+			class="large material-icons">mode_edit</i>
+		</a>
+		<ul>
+
+			<li class="waves-effect waves-light"><div
+					class="edit-toolbar-div">
+					<span class="edit-toolbar-label edit-toolbar-label-reports">«· ﬁ—Ì—
+						«·⁄«„</span> <img class="edit-toolbar-img center-align"
+						src="img/alltime.png" />
+				</div></li>
+			<li class="waves-effect waves-light"><div
+					class="edit-toolbar-div">
+					<span class="edit-toolbar-label edit-toolbar-label-reports">«· ﬁ—Ì—
+						«·—«»⁄</span> <img class="edit-toolbar-img center-align"
+						src="img/1hour.png" />
+				</div></li>
+			<li class="waves-effect waves-light"><div
+					class="edit-toolbar-div">
+					<span class="edit-toolbar-label edit-toolbar-label-reports">«· ﬁ—Ì—
+						«·À«·À</span> <img class="edit-toolbar-img center-align"
+						src="img/45mins.png" />
+				</div></li>
+			<li class="waves-effect waves-light"><div
+					class="edit-toolbar-div">
+					<span class="edit-toolbar-label edit-toolbar-label-reports">«· ﬁ—Ì—
+						«·À«‰Ï</span> <img class="edit-toolbar-img center-align"
+						src="img/30mins.png" />
+				</div></li>
+
+			<li class="waves-effect waves-light"><div
+					class="edit-toolbar-div">
+					<span class="edit-toolbar-label edit-toolbar-label-reports">«· ﬁ—Ì—
+						«·√Ê·</span> <img class="edit-toolbar-img center-align"
+						src="img/15mins.png" />
+				</div></li>
+
+			<li class="waves-effect waves-light"><div
+					data-activates="slide-out" class="edit-toolbar-div button-collapse">
+					<span class="edit-toolbar-label edit-toolbar-label-reports">≈⁄·«‰
+						«·≈” ‰›«—</span> <img class="edit-toolbar-img center-align"
+						src="img/emergency-announce.png" />
+				</div></li>
+		</ul>
+	</div>
+
+	<!-- side bar -->
+	<div id="slide-out" class="row side-nav">
+		<div class="row">
+			<form action="" method="post" class="col s12">
+				<div class="row">
+					<div class="input-field right col s12 l12 hoverable">
+
+						<select multiple>
+							<option value="" disabled selected>≈Œ — «·≈œ«—« /«·„—«ﬂ“</option>
+							<option value="1">«·„ﬂ » «· ‰ŸÌ„Ì ··ﬁÌ«œ…</option>
+							<option value="2">„—ﬂ“ «” ‘—«› «·„” ﬁ»· Êœ⁄„ « Œ«–
+								«·ﬁ—«—</option>
+							<option value="3">«·«œ«—… «·⁄«„… ·· Õ—Ì« </option>
+							<option value="4">«·≈œ«—… «·⁄«„… ·„ﬂ«›Õ… «·„Œœ—« </option>
+							<option value="5">«·≈œ«—… «·⁄«„… ·√„‰ «·„ÿ«—« </option>
+							<option value="6">«·≈œ«—… «·⁄«„… ··‘ƒÊ‰ «·≈œ«—Ì…</option>
+							<option value="7">«·≈œ«—… «·⁄«„… ··⁄„·Ì« </option>
+							<option value="8">«·≈œ«—… «·⁄«„… ··„—Ê—</option>
+							<option value="9">«·«œ«—… «·⁄«„… ··„ƒ””«  «·⁄ﬁ«»Ì…</option>
+							<option value="10">«·≈œ«—… «·⁄«„… ·√„‰ «·ÂÌ∆«  Ê «·ÿÊ«—∆</option>
+							<option value="11">«·«œ«—… «·⁄«„… ··√œ·… «·Ã‰«∆Ì…</option>
+							<option value="12">«·≈œ«—… «·⁄«„… ··„«·Ì…</option>
+							<option value="13">√ﬂ«œÌ„Ì… ‘—ÿ… œ»Ì</option>
+							<option value="14">«·≈œ«—… «·⁄«„… ··„Ê«—œ «·»‘—Ì…</option>
+							<option value="15">«·≈œ«—… «·⁄«„… ·≈”⁄«œ «·„Ã „⁄</option>
+							<option value="16">«·≈œ«—… «·⁄«„… ··Œœ„«  Ê«· ÃÂÌ“« </option>
+							<option value="17">«·≈œ«—… «·⁄«„… ··Œœ„«  «·–ﬂÌ…</option>
+							<option value="18">«·≈œ«—… «·⁄«„… ·ÕﬁÊﬁ «·≈‰”«‰</option>
+							<option value="19">«·≈œ«—… «·⁄«„… ··ÃÊœ… «·‘«„·…</option>
+							<option value="20">«·≈œ«—… «·⁄«„… ·· œ—Ì»</option>
+							<option value="21">«·«œ«—… «·⁄«„… ··‰ﬁ· Ê«·«‰ﬁ«–</option>
+							<option value="22">„—ﬂ“ ‘—ÿ… »—œ»Ì</option>
+							<option value="23">„—ﬂ“ ‘—ÿ… «·ﬁ’Ì’</option>
+							<option value="24">„—ﬂ“ ‘—ÿ… ‰œ«·‘»«</option>
+							<option value="25">„—ﬂ“ ‘—ÿ… «·—›«⁄…</option>
+							<option value="26">„—ﬂ“ ‘—ÿ… «·„—ﬁ»« </option>
+							<option value="27">„—ﬂ“ ‘—ÿ… ‰«Ì›</option>
+							<option value="28">„—ﬂ“ ‘—ÿ… «·—«‘œÌ…</option>
+							<option value="29">„—ﬂ“ ‘—ÿ… «·„Ê«‰∆</option>
+							<option value="30">„—ﬂ“ ‘—ÿ… Õ «</option>
+							<option value="31">„—ﬂ“ ‘—ÿ… Ã»· ⁄·Ì</option>
+							<option value="32">„—ﬂ“ ‘—ÿ… «·»—‘«¡</option>
+						</select>
+					</div>
+
+					<div class="input-field right col s12 l12 hoverable">
+						<select class="center">
+							<option value="" disabled selected>≈Œ — ‰Ê⁄ «·≈” ‰›«—</option>
+							<option value="1">«” ‰›«—  Ã—Ì»Ï</option>
+							<option value="2">«” ‰›«— ÕﬁÌﬁÏ</option>
+						</select>
+					</div>
+
+					<div class="input-field right col s12 l12 hoverable">
+						<select>
+							<option value="" disabled selected>≈Œ — Õ«·… «·≈” ‰›«—</option>
+							<option value="1">«·Õ«·… «·⁄«œÌ… - %25</option>
+							<option value="2">«·Õ«·… «·Œ«’… ··ÿÊ«—∆ - %40</option>
+							<option value="3">«·Õ«·Â «·„ Ê”ÿ… - %50</option>
+							<option value="4">«·Õ«·… «·“«∆œ… - %75</option>
+							<option value="5">«·Õ«·… «·ﬁ’ÊÏ - %100</option>
+						</select>
+					</div>
+
+					<div class="input-field right col s12 l12 center">
+						<button class="btn waves-effect waves-light hoverable"
+							type="submit" name="action">
+							»œ¡ «·≈” ‰›«— <i class="material-icons left submit-icon">send</i>
+						</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<!-- header -->
+	<div class="header">
+		<div class="nav-wrapper brand-logo ">
+			<div class="right">
+				<img class="responsive-img" src="img/dubaipolice-logo.png">
+			</div>
+			<div class="left">
+				<img class="responsive-img" src="img/gov-dubai.png">
+			</div>
+			<div class="center">ﬂ‘Ê›«  Õ«·«  «·ÿÊ«—∆</div>
+		</div>
+	</div>
+
+
+
+	<div class="row">
+
+		<!-- page content -->
+		<div class="main">
+			<div class="row">
+				<table
+					class="col s12 l12 responsive-table centered highlight bordered">
+					<thead>
+						<tr class="table-head">
+							<th data-field="name">‘—ÿÏ</th>
+							<th data-field="name">‘—ÿÏ1</th>
+							<th data-field="name">⁄—Ì›</th>
+							<th data-field="name">⁄—Ì›1</th>
+							<th data-field="name">—ﬁÌ»</th>
+							<th data-field="name">—ﬁÌ»1</th>
+
+							<th data-field="name">ÊﬂÌ·</th>
+							<th data-field="name">ÊﬂÌ·1</th>
+							<th data-field="name">„—‘Õ</th>
+
+							<th data-field="name">„·«“„</th>
+							<th data-field="name">„·«“„1</th>
+							<th data-field="name">‰ﬁÌ»</th>
+
+							<th data-field="name">—«∆œ</th>
+							<th data-field="name">„ﬁœ„</th>
+							<th data-field="name">⁄ﬁÌœ</th>
+							<th data-field="name">⁄„Ìœ</th>
+							<th data-field="name">·Ê«¡</th>
+
+							<th data-field="name">«·‰”»…</th>
+							<th data-field="price">«·Õ÷Ê— - «·„œŒ·</th>
+							<th data-field="price">«·Õ÷Ê— - «·„› —÷</th>
+							<th data-field="name">«·ﬁÊ…</th>
+							<th data-field="id" class="col-1">«·≈œ«—… / «·„—ﬂ“</th>
+						</tr>
+					</thead>
+
+					<tbody>
+						<tr>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+
+							<td class="amber">%100</td>
+							<td class="lime">25</td>
+							<td class="light-green">25</td>
+							<td class="green">50</td>
+							<td class="col-1">«·„ﬂ » «· ‰ŸÌ„Ï ··≈œ«—…</td>
+						</tr>
+						<tr>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+
+							<td class="amber">%100</td>
+							<td class="lime">25</td>
+							<td class="light-green">25</td>
+							<td class="green">50</td>
+							<td class="col-1">„—ﬂ“ «” ‘—«› «·„” ﬁ»· Êœ⁄„ «·ﬁ—«—</td>
+						</tr>
+						<tr>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+
+							<td class="amber">%100</td>
+							<td class="lime">25</td>
+							<td class="light-green">25</td>
+							<td class="green">50</td>
+							<td class="col-1">«·≈œ«—… «·⁄«„… ·· Õ—Ì« </td>
+						</tr>
+						<tr>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+
+							<td class="amber">%100</td>
+							<td class="lime">25</td>
+							<td class="light-green">25</td>
+							<td class="green">50</td>
+							<td class="col-1">«·≈œ«—… «·⁄«„… ·„ﬂ«›Õ… «·„Œœ—« </td>
+						</tr>
+						<tr>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+
+							<td class="amber">%100</td>
+							<td class="lime">25</td>
+							<td class="light-green">25</td>
+							<td class="green">50</td>
+							<td class="col-1">«·≈œ«—… «·⁄«„Â ·√„‰ «·„ÿ«—« </td>
+						</tr>
+						<tr>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+
+							<td class="amber">%100</td>
+							<td class="lime">25</td>
+							<td class="light-green">25</td>
+							<td class="green">50</td>
+							<td class="col-1">«·≈œ«—… «·⁄«„… ··‘∆Ê‰ «·≈œ«—Ì…</td>
+						</tr>
+						<tr>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+
+							<td class="amber">%100</td>
+							<td class="lime">25</td>
+							<td class="light-green">25</td>
+							<td class="green">50</td>
+							<td class="col-1">«·≈œ«—… «·⁄«„… ··⁄„·Ì« </td>
+						</tr>
+						<tr>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+
+							<td class="amber">%100</td>
+							<td class="lime">25</td>
+							<td class="light-green">25</td>
+							<td class="green">50</td>
+							<td class="col-1">«·≈œ«—… «·⁄«„… ··„—Ê—</td>
+						</tr>
+						<tr>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+
+							<td class="amber">%100</td>
+							<td class="lime">25</td>
+							<td class="light-green">25</td>
+							<td class="green">50</td>
+							<td class="col-1">«·≈œ«—… «·⁄«„… ··„ƒ””«  «·⁄ﬁ«»Ì…</td>
+						</tr>
+						<tr>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+
+							<td class="amber">%100</td>
+							<td class="lime">25</td>
+							<td class="light-green">25</td>
+							<td class="green">50</td>
+							<td class="col-1">«·≈œ«—… «·⁄«„… ·√„‰ «·ÂÌ∆«  Ê«·ÿÊ«—∆</td>
+						</tr>
+
+					</tbody>
+
+					<tfoot>
+						<tr class="table-head align-center">
+							<th data-field="name">0</th>
+							<th data-field="name">0</th>
+							<th data-field="name">0</th>
+							<th data-field="name">0</th>
+							<th data-field="name">0</th>
+							<th data-field="name">0</th>
+
+							<th data-field="name">0</th>
+							<th data-field="name">0</th>
+							<th data-field="name">0</th>
+
+							<th data-field="name">0</th>
+							<th data-field="name">0</th>
+							<th data-field="name">0</th>
+
+							<th data-field="name">0</th>
+							<th data-field="name">0</th>
+							<th data-field="name">0</th>
+							<th data-field="name">0</th>
+							<th data-field="name">0</th>
+
+							<th data-field="name">%100</th>
+							<th data-field="price">250</th>
+							<th data-field="price">250</th>
+							<th data-field="name">500</th>
+							<th data-field="id" class="col-1">«·„Ã„Ê⁄</th>
+						</tr>
+					</tfoot>
+				</table>
+			</div>
+		</div>
+	</div>
+
+	<!-- page footer -->
+	<div class="foorer"></div>
+
+
+	<!--Import jQuery before materialize.js-->
+	<script type="text/javascript"
+		src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="js/materialize.js"></script>
+
+	<script>
+		$(document).ready(function() {
+			$(".button-collapse").sideNav({
+				menuWidth : 350, // Default is 240
+				edge : 'right', // Choose the horizontal origin
+				closeOnClick : false, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+				draggable : true
+			// Choose whether you can drag to open on touch screens
+
+			});
+
+			$('select').material_select();
+			/* 			$('.edit-toolbar-label').hide(); */
+
+		});
+	</script>
+</body>
+</html>
+
+
